@@ -15,6 +15,7 @@ public class ReadingProperties {
 		
 		prop.load(fs);
 		System.out.println(prop.getProperty("name"));
+		System.out.println(prop.getProperty("course"));
 
 	}
 
